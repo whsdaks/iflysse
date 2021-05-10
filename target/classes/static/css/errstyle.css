@@ -1,0 +1,23 @@
+@charset "utf-8";
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url(error.jpg);
+	color: #1b81c4;
+	font-family: 'microsoft yahei';
+}
+div{ margin:auto;}
+p{ margin:0px; padding:0px;line-height:26px;}
+span{display: block;font-size: 14px;}
+
+
+.website-404{position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); width:600px; height:430px; border-right:10px solid #1b81c4; border-radius: 8px; background-color: #fff; overflow:hidden;}
+
+.website-404 .ri-t{padding-left:50px;padding-top:23px;font-size:12px;}
+.website-504 .ri-t{padding-top:2px}
+.website-502 .ri-t{padding-top:15px}
+.website-404 .ri-t h1{margin:0px; padding:0px; font-size:120px; font-weight:normal;}
+.website-404 .ri-t h2{margin:0px; padding:0px; font-size:24px; font-weight:normal; line-height:35px;}
+.website-404 .ri-t a{ display:block; float:left; text-decoration:none; margin:40px 25px 0 0; font-size:14px;}
+.website-404 .ri-t a:hover{ text-decoration:underline;}
+.website-404 .ri-t a.imgt{ background:url(http://prof624c6.pic22.websiteonline.cn/upload/static/images/website-be.jpg) left center no-repeat; padding-left:20px; padding-left:25px;}

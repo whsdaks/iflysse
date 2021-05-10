@@ -1,0 +1,9 @@
+index.jsp 角色选择页
+login.jsp 登录页
+signUP.jsp 注册页
+add_kcb.jsp 添加课程（每个课程只需填一次）
+add_kcb1.jsp 添加课程（需要填多次）
+classTime.jsp 添加课程时间页
+menu.jsp 主页
+new_pwd.jsp 修改密码页
+功能：实现页面间跳转。如点击添加课程，在所在页面内容展示区加载出相应页面；点击下一页，上一页实现页面间跳转

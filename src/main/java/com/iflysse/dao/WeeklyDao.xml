@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iflysse.dao.WeeklyDao">
+  <!--  动态sql -->
+	<select id="queryweekly" resultType="com.iflysse.bean.Weekly">
+		select * from weekly
+		<where>
+			<if test="wNumber != null and wNumber != ''">
+				and w_number like concat('%',#{wNumber},'%')
+			</if>
+			<if test="author != null and author != ''">
+				and author = #{author}
+			</if>			
+		</where>
+	</select>
+
+</mapper>

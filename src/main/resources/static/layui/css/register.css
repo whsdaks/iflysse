@@ -1,0 +1,85 @@
+html,body{
+    width:auto;
+    height:auto;
+}
+body {
+    background-size: cover;
+}
+.input_text{
+    width:350px;
+    height:35px;
+}
+.input_text2{
+    width:320px;
+    height:35px;
+}
+.btnContRt {    /*  å‘˜å·¥æ³¨å†Œçš„æ ·å¼*/
+    width: 450px;
+    height: 730px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    top:6%;
+    align-items:center;
+    background: rgba(255,255,255,0.54);//æ¡†èƒŒæ™¯çš„é¢œè‰²
+    border-radius: 2px; //åœ†è§’è¾¹
+    color: #333;//å­—ä½“çš„é¢œè‰²
+    color: black;
+    text-align: center;
+    box-shadow: -1px -2px 10px rgba(0,0,0,0.4);
+    position: relative;
+    z-index: 99;
+}
+
+
+.btnContRt h3 , .btnContRt2 h3{
+/*    font-size: 14px;
+    line-height: 20px;*/
+    margin-top: 36px; ;
+    font-size: 30px;
+    line-height: 26px;
+    /*color: orange;*/
+    color: #f47920;
+}
+.h15{
+    height: 20px;
+}
+.btnContRt img ,.btnContRt2 img {
+    width:180px;
+    height: 120px;
+   /* background: rgba(255,255,255,0.21);*/
+}
+.btnContRt2{
+    width: 450px;
+    height: 700px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    top:10%;
+    align-items:center;
+    background: rgba(255,255,255,0.52);//æ¡†èƒŒæ™¯çš„é¢œè‰²
+    border-radius: 2px; //åœ†è§’è¾¹
+    color: black;//å­—ä½“çš„é¢œè‰²
+    text-align: center;
+    box-shadow: -1px -2px 10px rgba(0,0,0,0.4);
+    position: relative;
+    z-index: 99;
+
+}
+.message {
+    margin: 10px 0 0 -58px;
+    padding: 18px 10px 18px 60px;
+    background: #4285F4;
+    position: relative;
+    color: #feeeed;
+    font-size: 20px;
+}
+#darkbannerwrap{
+    width: 18px;
+    height: 10px;
+    margin: 0 0 20px -58px;
+    position: relative;
+}
+.ali {
+    text-align: left;
+    width: 280px;
+    margin: 0 auto;
+}

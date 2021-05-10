@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+*{ /*通配符，选择页面中所有的标签*/
+	    margin:0; /*外间距*/
+	 }  
+	 .about-nnxy ul{
+            width:1120px;
+            height:330px;
+            /* float:left; */
+            display:inline; 
+            margin:0 auto;/*设置盒子左右外间距，均等平分*/
+            list-style:none;/*设置ul列表标签自带列表样式的小圆点 none无*/
+    }    
+    .about-nnxy li{
+			position:relative;/*获得一个能随意移动位置的权限*/
+			top:0;/*设置li区块 上边位置的起点*/
+			float:left;/*让标签盒子横着排列 left从左到右 right从右到左*/
+			width: 250px; /*个*/
+			height: 280px;
+			display:inline;
+			float:left;
+			display:inline;		
+			padding:0;
+			margin:10px 0 0 5px;  /*外间距  2个数：上下    左右*/
+			background-color: #f6f6f6;
+			border-radius: 8px;
+			transition: 1s;/*过渡：让瞬间变化的动作改成 慢慢变化*/
+		}
+    .about-nnxy li div{ /*找到 .blog里的 li 区块里的 div盒子*/
+			width: 100%; /*宽度跟上一级的区块盒子一样宽*/
+			height: 170px;
+            margin:0;
+            border-radius: 8px;	
+			background-color: #f00;
+			background-image: url(images/course.gif) ;/*插入一张背景 图片image*/
+			background-size: 100%;/*设置背景图片大小*/
+			
+		}
+    
+    .about-nnxy-a{
+			margin: 5px 2px 0 5px; /*上下0  左右外间距50*/
+			padding: 5px 5px; /*上下10  左右80*/
+			border: 2px solid #ffffff;/*区块的边框：粗细大小 边框风格 边框颜色  solid实线边框*/
+			color:black;
+            text-decoration: none; 
+		}
+	.about-nnxy-a:hover{ /*:hover 检测鼠标是否过来的雷达*/
+				/*只要检测到鼠标出现在a区块的范围时，a就修改自己的css代码*/
+			background-color: #00cc00;
+        }

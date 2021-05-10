@@ -1,0 +1,79 @@
+/* .bs{
+                width: auto;
+                height: 1339px;
+                margin: 0 auto;
+                background-color: #FFF;
+            }
+            .banner{
+                height: 100px;
+                width: auto;
+                background: rgb(189, 19, 175);
+            } */
+            /* .banner h1{
+                text-align: center;
+                padding-top: 20px;
+            } */
+            /* .menu{
+                height: 50px;
+                line-height: 50px;
+                background-color: #bbb;
+            } */
+            .headline{
+            	height:20px;
+            	width:auto;
+            	color:#fff;
+            	font-size:30px;
+            	margin-top:10px;
+            	font-family:'LiSu';
+            }
+             .main{
+                height: 600px;
+            } 
+            .left{
+                height: 100%;
+                width: 203px;
+                background-color: #bbb;               
+                float: left;
+                margin-top:auto;
+            }
+             /* .left a{
+                left: center;
+                margin: 50px;
+            }  */
+            .right{
+                height: 100%;
+                width: auto;
+                /* background-color: #CCFF66; */
+                float: left;              
+                margin-left: -2px;
+                margin-top: 5px;
+                border: 1px solid #000;
+            }
+            .my_form{
+                text-align: center;
+            }
+            /* .menu a{
+                left: center;
+                margin: 50px;
+               
+            } */
+            #courseList{
+                height: 100%;
+                width: 86.5%;
+                /* background-color: #CCFF66; */ 
+                float: right;         
+                /* margin-left: 3px;
+                margin-top: 5px; */
+                 margin:0 2px 0 0; 
+                /* border: 1px solid #000; */
+            }
+           /*  #content{
+            	height: 999px;
+                width: 1315px;
+                background-color: #CCFF66; 
+                float: right;         
+                margin-left: 3px;
+                margin-top: 5px; 
+                 margin:0; 
+                border: 1px solid #000;
+            }       */

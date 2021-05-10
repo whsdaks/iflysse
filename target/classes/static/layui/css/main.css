@@ -1,0 +1,11 @@
+/* body {
+  padding-bottom: 30px;
+} */
+.footer{
+            height:20px;	
+            line-height:20px; /*文字上下高度60像素*/
+            color:black;
+            font-size:15px;
+            text-align:center;/*文本居中*/
+            /* background-color:blue; */  
+}

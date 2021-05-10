@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.iflysse.dao.TermSetDao">
+
+	<select id="queryTermset" resultType="com.iflysse.bean.TermSet">
+		select e_id,e_name,total_weeks,start_date,end_date,e_state from semester
+		<where>
+			<if test="eName != null and eName != ''">
+				and e_name like concat('%',#{eName},'%')
+			</if>
+			
+		</where>
+	</select>
+
+</mapper>
